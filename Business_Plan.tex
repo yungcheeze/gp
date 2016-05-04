@@ -9,11 +9,8 @@
 \onehalfspacing
 \input{defs}
 \usepackage{adate/authordate1-4}
-%\usepackage[
-%backend=biber,
-%style=alphabetic,
-%citestyle=authoryear 
-%]{biblatex}
+\usepackage[toc, page]{appendix}
+
 
 
 
@@ -33,6 +30,7 @@
 
 
 \tableofcontents
+\listoffigures
 \clearpage
 
 
@@ -44,7 +42,7 @@
 
 \section{The Business}
 
-Our core value proposition is based on Snapchat’s model of self-destructing messages. The short life-span of the messages allows users to be more spontaneous: they don’t have to worry about following standard social conventions as there is no pressure to have a “conversation”, helping create the fun, simple environment that makes BUZZ stand out from other, standard messaging apps.
+BUZZ's core value proposition is based on Snapchat’s model of self-destructing messages. The short life-span of the messages allows users to be more spontaneous: they don’t have to worry about following standard social conventions as there is no pressure to have a “conversation”, helping create the fun, simple environment that makes BUZZ stand out from other, standard messaging apps.
 
 \begin{figure}[!h]
     \centering
@@ -53,9 +51,8 @@ Our core value proposition is based on Snapchat’s model of self-destructing me
     \label{fig:nv type}
 \end{figure}
 
-For our business, we will adopt a freemium model. Making the app free-to-download helps us maximise on potential downloads, as about 66\% of all mobile users never pay for apps \cite{eMarketer2015} . This aids our primary objective of growing a big enough user base to ensure profitable amounts of daily activity.
+The Buzz LLC will operate under a freemium model(Osterwalder \& Pigneur, 2010, Figure \ref{fig:bmc}). Making the app free-to-download helps to maximise on potential downloads, as about 66\% of all mobile users never pay for apps \cite{eMarketer2015} . This aids the firm's primary objective of growing a big enough user base to ensure profitable amounts of daily activity.
 
- Once downloaded, users have the option to upgrade to an ad-free version of the app and can also purchase exclusive sounds. This will help provide a good revenue stream while our user base grows to point that our Ads become profitable.
 
 \begin{figure}
     \centering
@@ -66,24 +63,30 @@ For our business, we will adopt a freemium model. Making the app free-to-downloa
 
 \subsection{Making The App}
 
-A key element to success is building a well-designed app that functions properly. Apps built by inexperienced developers often have loads of bugs and a poor design structure, which makes them hard to update and maintain. As such we will hire a professional Software Development team to make the first release of our app. At the cost of about £20,000, we will get a well-crafted user interface and a rigorously tested software base. This ensures we make a good first-impression on the market and lays a solid foundation for any subsequent updates undertaken as we inevitably add more functionality to the app.
+A key element to success is building a well-designed app that functions properly. Though the functionality is quite trivial at the user interface level, it takes a lot of craft to design a backend that scales well.
+Therefore, despite having a member within the team who has some experience in software design, we will delegate this task to a Professional Software Development firm. This ensures BUZZ makes a good first-impression on the market and lays a solid foundation for any subsequent updates to add more functionality to the app.
 
-We will download our sounds from various sound databases online and edit them using sound editing software, such as Ardour, which is easy to use and free to download. As for the advertisement content, we’ll use AdMob, a massive ad database ran by Google which can be accessed for free after going through a simple registration process. On average, Google will pay us about £0.01, every time someone clicks an ad via our app.
+Only the core structure of the app will be externally developed; the remainder will be done in-house. This involves getting the sounds, setting up the advertising network, and finally, setting up the server, which will store all the user information and facilitate peer-to-peer communication:
 
-Once we’ve built the core part of the app, we will need to set up the server database for the app. This will contain all the user information and the sounds and will facilitate the messaging function. Rather than buy our own physical server, we’ve chosen to rent virtual server space from a web-hosting service, mainly to avoid the initial huge capital cost.
+\begin{itemize}
+    \item The sounds will be downloaded from various free sound databases online then edited, if necessary, using open-source sound editing software.
+    \item The advertisement content will retrieved from AdMob, a massive ad database ran by Google which can be accessed for free after going through a simple registration process. On average, Google will pay us about £0.01 per click-thru.
+    \item  A virtual server will be used in order to avoid the initial huge capital cost of buying a physical one, with the web-host charging about £9 per month. This fee is likely to increase as our user base grows beyond 20,000.
+\end{itemize}
+
 
 \subsection{The Team and Key Activities}
 
-The core team consists of three members: Ucizi Mafeni (myself), 1st year Computer Science Student; Karan Argawal, 1st Year Economics Student; and Oliver Robley, also 1st Year Economics Student. We be will the primary shareholders, jointly holding the dominating stake, and also three of the four members on the Board of Directors. There’s a high probability our angel investor will also have equity in the firm and will be a non-executive director.
+The core team consists of three members: Ucizi Mafeni, 1st year Computer Science Student; Karan Argawal, 1st Year Economics Student; and Oliver Robley, also 1st Year Economics Student. They will be the primary shareholders, jointly holding the dominating stake, and also three of the four members on the Board of Directors. The firm's angel investor will also have equity in the firm and will most likely be a non-executive director, though we will draw upon his expertise in the formation of the company.
 %MAKE A Table:
 The day-to-day activities will be split as follows:
 \begin{itemize}
-    \item Karan will mainly deal with customer satisfaction. This will mainly involve looking through and analysing our customer reviews on the Application Stores and any feedback emails received through our website.
-    \item Oliver will oversee the execution of our various marketing strategies, which makes sense as he came up with most of them. He will also be in charge of the financial bookkeeping, which should be quite trivial within the first few years of operation.
-    \item I will oversee all the technical aspects of our app. I'll personally be responsible for the building of the website due to my experience in HTML and CSS. I'll also monitor the back-end of the app i.e. the user and sound databases as well the functionality of our virtual server and the necessary upgrades that will be needed as our user base grows.
+    \item As the creator of Buzz, Karan, CEO and founder, will be responsible for the overall vision and direction of the company. Aside from this, his more active role will mainly deal with gauging customer satisfaction. This will involve looking through and analysing our customer reviews on the Application Stores and any feedback emails received through our website.
+    \item Oliver,CMO, CFO and co-founder, will oversee the execution of our various marketing strategies. He will also be in charge of the financial bookkeeping, which should be quite trivial within the first few years of operation.
+    \item Ucizi, CTO and co-founder, will oversee all the technical aspects of our app. He'll personally be responsible for the building of the website due to his experience in HTML and CSS. He'll'll also monitor the back-end of the app i.e. the user and sound databases as well the functionality of our virtual server and the necessary upgrades that will be needed as our user base grows.
 \end{itemize}
 
-Any of the major decisions which involve altering how we operate i.e. adding new functionality to the app or changing our marketing strategies, will be brought up at board meetings and will only be carried out after whole team agrees upon it. There may also be a need to hire more experienced workers (i.e. software developers, audio producers) on a part-time basis for the more complicated tasks.
+In addition, there may also be a need to hire more experienced workers (i.e. software developers, audio producers) on a part-time basis for the more complicated tasks. Once the company becomes more profitable, a full-time development and marketing team will be brought in to ensure BUZZ scales successfuly.
 
 \section{Our Place in the Market}
 
@@ -97,12 +100,13 @@ Any of the major decisions which involve altering how we operate i.e. adding new
 \end{figure}
 
 \subsubsection*{Political and Economic factors}
-The UK economy has been showing good recovery signs from the financial crisis in 2009. With this still fresh on most of the public's mind, Political parties are urged to introduce policies that encourage economic growth and boost consumer confidence. Many of these policies work to the advantage of small business (i.e. tax breaks, low interest rates) and are likely to remain the same till 2018. This gives us plenty of time to grow our business, so we will better equipped to handle any unfavourable policy changes.
+The UK economy has been showing good recovery signs from the financial crisis in 2009. With this still fresh on most of the public's mind, Political parties are urged to introduce policies that encourage economic growth and boost consumer confidence. Many of these policies work to the advantage of small businesses (i.e. tax breaks, low interest rates) and are likely to remain the same till 2018. %This gives us plenty of time to grow to a point at which it can more capably handle any unfavourable policy changes.
+This gives us plenty of time to grow our business, so we will better equipped to handle any unfavourable policy changes.
 
 \subsubsection*{Social and Technological factors}
 Smart phones these days have become a necessity: almost everyone has one, and almost no one can live without one. Though there are prospects of emerging technologies (wearable computers), they are still in the early phases of development and it will take a while before they replace the role of smartphones. As such there is no expected decline in the smartphone industry (which would basically put us out of business)
 
-iOS and Android, the two platforms we aim to launch our app on, currently dominate the smartphone market, and with their continuous innovations and development, they’re expected stay on top for the foreseeable future. As such, there is little fear of either markets declining.
+iOS and Android, the two platforms on which BUZZ will be launched, currently dominate the smartphone market, and with their continuous innovations and development, they’re expected stay on top for the foreseeable future. As such, there is little fear of either markets declining.
 
 \subsection{Industry/Sector}
 
@@ -113,9 +117,9 @@ iOS and Android, the two platforms we aim to launch our app on, currently domina
     \label{fig:porters}
 \end{figure}
 
-In a simplistic sense, the barriers to entry are almost non-existent, as all you need is a PC and the ability to code. App distribution and web hosting is fairly cheap, and the development software is free to download, meaning almost anyone can build an app. However if you're looking to monetise your app,  the most significant barrier to entry is the cost of promoting your products, as most new apps are practically invisible to the public eye. Getting noticed on the App Store is especially difficult: the apps most likely to be downloaded are usually at the top of the search list, and the apps at the top of the search are usually the ones with millions of downloads.
+Though the cost of making an app relatively low, as all one really needs is a PC and the ability to code, anyone looking to monetise their app faces the significant challenge of having to market their product, since most new apps are practically invisible to the public eye. Getting noticed on the App Store is especially difficult: the apps most likely to be downloaded are usually at the top of the search list, and the apps at the top of the search are usually the ones with millions of downloads.
  
-Most new apps, which usually don't have a huge advertising budget, rely heavily on social media, word of mouth, and peer to peer sharing (e.g. app invite messages). The good thing is once people know about your app, they lose nothing by downloading it as there is virtually no opportunity cost (due to the fact most apps are free to download). Therefore once the app is developed, most of our efforts will have to go into promoting it in order to get users.
+Most new apps, which usually don't have a huge advertising budget, rely heavily on social media, word of mouth, peer to peer sharing (e.g. app invite messages) and may even resort to slightly unconventional methods. However, its all worth it because once prospective users discover the app, they lose nothing by downloading it and even if it's deleted soon after, the burst of activity contributes towards your visibility on the app store. Therefore once the app is developed, a lot of the company's activity will be centred on marketing and promotion.
 
 \subsection{Competitors}
 
@@ -127,7 +131,7 @@ Most new apps, which usually don't have a huge advertising budget, rely heavily 
     \label{fig:competitors}
 \end{figure}
 
-Any app that is a messaging app, of which are several of, can be considered a competitor since they will all be listed under the same category as our app on the Store. Our most direct competitor is be Snapchat as our app is most similar to theirs. However the other major messaging apps e.g. Viber, Facebook messenger, and Whatsapp, are potential threats are they already have a large worldwide user base, and could potentially add the features our app offers to their own respective apps.
+Any app that is a messaging app, of which are several of, can be considered a competitor since they will all be listed under the same category as BUZZ app on the Store. As it is most similar in nature, Snapchat is probably our most direst competitor. However the other major messaging apps e.g. Viber, Facebook messenger, and Whatsapp, are potential threats as they already have a large worldwide user base, and could potentially add the features that make BUZZ unique to their own respective apps.
 
 \subsection{Our Target Market}
 
@@ -138,7 +142,7 @@ Any app that is a messaging app, of which are several of, can be considered a co
     \label{fig:target market}
 \end{figure}
 
-Critical Mass is commonly used term in the app industry. It’s essentially “the minimum size of the user base at which enough number of producers and consumers exist to spark transactions sustainably" \cite{Choudaryn.d.}. Our aim is to hit an estimated critical mass of 50,000 thousand users within the first three years of operation. Within our target market (UK University Students) this objective should be achievable. 
+Critical Mass is a commonly used term in the app industry. It’s essentially “the minimum size of the user base at which enough number of producers and consumers exist to spark transactions sustainably" \cite{Choudaryn.d.}. The company's current goal is to hit an estimated critical mass of 50,000 users within the first two years of operation (See Figure \ref{fig:target market}. We believe this objective should be achievable within our targeted market demographic (UK University students). 
 
 \section{Sales and Marketing}
 Before hitting critical mass, a majority of new users will be gained through advertising and promotion. In order to overcome having a small user base, we will focus on micro-marketing: promoting within specific geographic areas so our user base is relevant. This increases the likelihood of having multiple users within the same social group, resulting in more interaction within the app. We'll initially concentrate on promoting the app within Durham, then move on to other universities in the north-east, and other major universities.
@@ -146,9 +150,10 @@ Before hitting critical mass, a majority of new users will be gained through adv
 \subsection{Marketing Mix}
 
 \subsubsection*{Price}
-Our pricing strategy is aimed towards getting enough revenue to keep us in business while our base charge £0.99 for an upgrade to the ad-free version. In addition we will selling additional sounds aside from the one that come with the initial download, these will roughly cost £0.30 per sound (excluding promotional discounts we may offer time to time). Since students are highly unlikely to pay for an app, especially before they've had a chance to use it and assess its value, the free version of our app will be a great way to encourage initial downloads.
 
-\subsubsection*{Promotion}
+In-app purchases will serve the purpose of raising enough revenue to remain solvent while waiting for the user base to grow large enough for the native advertising to become profitable. Following, an online survey we carried out (See Appendix 1), it was decided that the ad-free version would be priced at £0.99, and the premium sounds would be priced at approximately £0.30 per sound. We believe these prices would bring in the most sales revenue as it is roughly the price most respondents were willing to pay.
+
+\subsubsection*{Promotion}\label{sec:Promotion}
 We will initially promote use within our own university - a strategy employed by many social networking/messaging apps in their early stages (e.g. Facebook at Harvard, YikYak in Georgia). Once it becomes popular within Durham, we'll proceed to promoting it in neighbouring Universities and soon enough to the rest of the country.
  
 Our main strategies will include  Email-marketing, Social media pages (twitter and Facebook), Sponsoring events within the University and Running Promotional Tours i.e. handing out free merchandise and hiring campus reps to help promote the app.
@@ -156,10 +161,10 @@ Our main strategies will include  Email-marketing, Social media pages (twitter a
 For advertising, we'll use Google AdWords, which brings up a link to our app every time someone types in one of our selected keywords on Google. It's very cost-effective as we only pay for each click-thru and we have of additional option of targeting specific geographic locations, which aids in adding relevant users to our network.
 
 \subsubsection*{Place (Product Distribution)}
-Our app will made available on the Google PlayStore and the Apple AppStore. In addition we'll place links to both download locations on all our Social Media pages as well as the App Website. We'll also include an app invite function within the app, which allows users to send a download link to contacts who don't currently have the app.
+BUZZ will made available on the Google PlayStore and the Apple AppStore. In addition , we'll place links to both download locations on all our Social Media pages as well as the App Website. Furthermore, an app invite function will be embedded within the app, which allows users to send a download link to contacts who don't currently have the app.
 
 \subsubsection*{Product}
-The core concept behind the design of our app is "Friction-Free": upon opening the app, users should be able to effortlessly listen to and send sound messages. This will be achieved through a simple designed navigation menu, from where users can see a list of their new messages and contacts they most recently interacted with. The sounds will be grouped into categories, with the first one containing their most frequently used sounds, which they can send with a single tap.
+The core concept behind the design of our app is "Friction-Free": upon opening the app, users should be able to effortlessly listen to and send sound messages. This will be achieved through a simple designed navigation menu, from where users can see a list of their new messages and contacts they most recently interacted with. The sounds will be grouped into categories, with the first one containing their most frequently used sounds, which they can send with a single tap. (Refer to the sample design on Figure \ref{fig:ui})
 
 \begin{figure}[!h]
     \centering
@@ -176,7 +181,7 @@ The core concept behind the design of our app is "Friction-Free": upon opening t
 \section{Financial Analysis}
 
 \subsection{Break Even analysis}
-Since the models used to estimate ad revenues, in comparison to revenues from purchases are somewhat incompatible (i.e. Ad's depend on active users whereas Purchases are more dependent on new users), I made two separate Break-even charts to depict both.
+Since the models used to estimate ad revenues, in comparison to revenues from purchases are somewhat incompatible (i.e. Ad's depend on active users whereas Purchases are more dependent on new users),separate Break-Even charts were made to depict these two equally important aspects of our revenue model.
 
 There are only two main costs directly related to our product: The AppStore subscription fee (to keep our app on the store) and the cost of renting out Virtual Server space (to store all user details and facilitate messaging). Both are fixed in the short-term (i.e for a fixed number of users) but renting out Server space is variable in the long-run as our user base grows.
 
@@ -219,11 +224,11 @@ It is important to note that the break-even point from purchases is only worth c
 \end{figure}
 
 \subsection{Cash Flow Forecast}
-With the money from our investor, we should be able to maintain positive cash flow throughout our first two years of operation. The majority of it will be spent straight away on hiring the development team to make the app for us. The remainder will mostly be used for promotional activities (i.e. paying for AdWords and Financing on-campus Campaigns)
- 
-Our revenue stream was modelled under the assumption that user growth is a little slow in the first year then, exponentiates through the second year once our promotional campaigns become more successful at raising product awareness. This is shown by the forecasted rapid increase in revenue during the second year as we expect start off with just under 10,000 total users and end up with 60,000 users, occasionally hitting rates as high as 5,000 new users per week.
- 
-In order to maintain a positive cash flow, we've collectively decided not to take a salary till the second year, when our revenue stream is more reliable. Instead we'll live off the support of our parents during this time period.  Of course even this salary is quite modest (£400 per month for each of us) as we think it is unwise to bleed company resources dry during this critical moment when revenues are still quite low and we're still trying to invest in user growth.
+We're expected to just about maintain positive cash flow throughout the first year (See Figure \ref{fig:CF16}). Most of the funds will be spent on app development, which is likely to take up the first two months of operation. The remainder will mostly be used for promotional activities (Refer to section \ref{sec:Promotion})
+
+However this forecast was only feasible after Management collectively decided to forgo their salaries. As the management team is mostly comprised of students, who are still dependents, they should be able off the support of their parents.
+
+Though the second year's forecasts (See Figure \ref{CF17} are purely estimates, they give a good picture of how the financial period may go if all goes according to plan. Our revenue model was modelled user the assumption that user growth is a litte slow in the first year, then exponentiates through the second year once BUZZ's promotional campaigns become more successful at raising product awareness. This is why there is significant increase in revenue during the second year. For a more detailed description of estimated user growth figure, refer to Appendix 2)
 
 \begin{landscape}
 
@@ -279,9 +284,11 @@ The company will able to remain quite liquid as our only real fixed assets are o
 
 \section{Risk Assessment}
 
-The copyright infringement lawsuit is probably the most hazardous risk. As a start-up, we hardly have enough resources to go to court and so our best bet is to play it safe and be diligent: we will only use trusted sound databases, which contain the licensing information of the sounds. 
+Our potential risks are highlighted in Figure \ref{fig:risks}. The copyright infringement lawsuit is probably the most hazardous risk. As a start-up, we hardly have enough resources to go to court and so our best bet is to play it safe and be diligent: we will only use trusted sound databases, which contain the licensing information of the sounds.  
  
-The possibility of someone copying our idea also poses a great threat. We’ll look to get patents to protect any features that make our app stand out, and possibly also try to register key elements of user interface as designs. However, since patents are quite costly to obtain in terms of both time and money, we’ll only begin the process when it becomes clear that our app has the potential to a huge player in the social media market. 
+The possibility of someone copying our idea also poses a great threat. We’ll look to get patents to protect any features that make our app stand out, and possibly also try to register key elements of user interface as designs. However, since patents are quite costly to obtain in terms of both time and money, we’ll only begin the process when it becomes clear that our app has the potential to a huge player in the social media market.
+
+There is also a chance the University may seize BUZZ and all its contents, since legally our intellectual property belongs to them. To avoid any legal issues in the future, we'll look into drafting a contractual agreement between both parties. This could ultimately work to our advantage, we could draw on the experience the University has to help speed up the patent application process.
 
 \begin{figure}[!hb]
     \centering
@@ -291,7 +298,7 @@ The possibility of someone copying our idea also poses a great threat. We’ll l
     \label{fig:riskMatrix}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[!hp]
     \centering
     \includegraphics[width = 0.9\textwidth]{Figures/RISKS.jpg}
     \caption{Potential risks and mitigating actions (See \ref{fig:riskMatrix} for risk category matrix)}
@@ -299,14 +306,25 @@ The possibility of someone copying our idea also poses a great threat. We’ll l
 \end{figure}
 
 \section{Long-Term Goals}
-If we successfully hit critical mass in the first 24 months and there’s still potential for more growth, we’ll look to build on our success by hiring a full-time, in-house development team to help with new ideas to help improve the app. This will also mean moving into a formal office space. We’ll probably need to buy a physical server as well, as it’ll be more cost effective and give us more flexibility on how we handle our information databases. All this will be quite costly and most likely require more external funding, though our established market presence will make it easier to attract new investors.
+If BUZZ successfully hits critical mass in the first 24 months and there’s still potential for more growth, we’ll look to build on our success by hiring a full-time, in-house development team to help with new ideas to help improve the app. This will also mean moving into a formal office space. We’ll probably need to buy a physical server as well, as it’ll be more cost effective and give us more flexibility on how we handle our information databases. All this will be quite costly and most likely require more external funding, though our established market presence will make it easier to attract new investors.
 
 \section{Exit Strategies}
-Being a Limited Company makes getting out simpler due to the separation between owners and managers. If I wanted to, I could leave my managerial role and still keep my stake in the company.
-There’s also the option of getting bought out by a larger firm. The only drawback is offers are most likely to come up when we're at our most successful - a time at which there is least incentive to leave. Ultimately, there’s also the possibility that we won’t be able to get worthwhile return on investment in the long-run. As long as we remain solvent, shutting up shop shouldn't be too complicated.
+
+Being A limited company offers a lot of flexibility in terms of exit due to the separation between ownership and management. Once BUZZ hits critical mass, it's likely that the current managerial team, which consists of the owners, will most likely be replaced with more experienced individuals who will be able to handle the growth during this stage. After this, it will be up to them to decide whether or not to sell their stake in the company. This shouldn't be too difficult as BUZZ's established market presence will make it easier to attract accredited investors.
+
+However, if it becomes clear that the app cannot scale, Buzz llc will probably end up being acquired by a larger messaging company, since BUZZ is the only product and and the owners have expressed no intention of releasing any more apps.
+
 
 \newpage
 \bibliography{references}
 \bibliographystyle{authordate1}
+
+\newpage
+
+\renewcommand*\appendixpagename{\headingfont\HUGE\bfseries\scshape\color{color1} Appendices}
+
+
+
+
 
 \end{document}          
